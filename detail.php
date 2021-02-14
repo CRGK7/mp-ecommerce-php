@@ -31,9 +31,9 @@
     // Crea un objeto de preferencia
     $preference = new MercadoPago\Preference();
     $preference->back_urls = array(
-        "success" => "http://localhost/mp-ecommerce-php-master/success.php",
-        "failure" => "http://localhost/mp-ecommerce-php-master/failure.php",
-        "pending" => "http://localhost/mp-ecommerce-php-master/pending.php"
+        "success" => "https://crgk7-mp-ecommerce-php.herokuapp.com/success.php",
+        "failure" => "https://crgk7-mp-ecommerce-php.herokuapp.com/failure.php",
+        "pending" => "https://crgk7-mp-ecommerce-php.herokuapp.com/pending.php"
     );
     $preference->auto_return = "approved";
     //$preference->init_point = "https://www.mercadopago.com.pe/integrations/v1/web-payment-checkout.js";
@@ -213,7 +213,7 @@
                                         </h3>
                                     </div>
                                     <!-- <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button> -->
-                                    <form action="http://localhost/mp-ecommerce-php-master/response.php" method="POST">
+                                    <form action="https://crgk7-mp-ecommerce-php.herokuapp.com/response.php" method="POST">
                                         <script
                                           src="https://www.mercadopago.com.pe/integrations/v1/web-payment-checkout.js" data-header-color="#c0392b" data-elements-color="#8e44ad" data-button-label="Pagar la compra" view="item"
                                           data-preference-id="<?php echo $preference->id; ?>">
