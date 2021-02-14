@@ -37,7 +37,7 @@
     );
     $preference->auto_return = "approved";
     //$preference->init_point = "https://www.mercadopago.com.pe/integrations/v1/web-payment-checkout.js";
-    $preference->external_reference = "wcordova96sistemas7@gmail.com";
+    $preference->external_reference = "wcordova96crgk7@gmail.com";
     $preference->integrator_id = "dev_2e4ad5dd362f11eb809d0242ac130004";
 
     // Crea un ítem en la preferencia
