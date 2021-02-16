@@ -80,7 +80,7 @@
                     <br><br><br>
                     <div style="align-content: center; text-align: center; font-size: 30px;">
                         <h3 class="pd-billboard-header pd-util-compact-small-18">Realizado con éxito</h3><br><br>
-                        <h3 style="font-size: 25px;" class="pd-billboard-header pd-util-compact-small-18">Método: <?php echo "$payment_type"; ?></h3><br>
+                        <h3 style="font-size: 25px;" class="pd-billboard-header pd-util-compact-small-18">Método: <?php echo "$payment_type (master)"; ?></h3><br>
                         <h3 style="font-size: 25px;" class="pd-billboard-header pd-util-compact-small-18">Referencia externa: <?php echo "$external_reference"; ?></h3><br>
                         <h3 style="font-size: 25px;" class="pd-billboard-header pd-util-compact-small-18">ID: <?php echo "$payment_id"; ?></h3><br>
                     </div>
